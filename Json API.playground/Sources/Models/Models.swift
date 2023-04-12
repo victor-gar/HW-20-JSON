@@ -1,12 +1,12 @@
 import Foundation
 
-struct MagicCardApiResponse: Decodable {
-    let cards: [MagicCard]
+public struct MagicCardApiResponse: Decodable {
+    public let cards: [MagicCard]
 }
 
-struct MagicCard: Decodable {
-    let name: String
-    let type: String
-    let manaCost: String?
-    let setName: String
+public struct MagicCard: Decodable {
+    public  let name: String
+    public let type: String
+    public let manaCost: String?
+    public let setName: String
 }
